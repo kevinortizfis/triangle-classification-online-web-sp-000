@@ -13,7 +13,6 @@ class Triangle
       raise TriangleError
         puts TriangleError.message
       rescue TriangleError
-      end
     end
   end
 
