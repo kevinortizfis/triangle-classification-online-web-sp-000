@@ -11,6 +11,7 @@ class Triangle
     rescue TriangleError
     end
   end
+  end
 
   class Triangle
   # triangle code
