@@ -9,7 +9,7 @@ class Triangle
   end
 
   def kind
-    if @sides.any?{|one| one <= 0} == true
+    if @sides.any?{|one| one <= 0}
       begin
       raise TriangleError
       rescue TriangleError
