@@ -16,6 +16,7 @@ class Triangle
       rescue TriangleError
       end
     end
+  end
 
   def kind
     valid?
