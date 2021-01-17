@@ -8,8 +8,8 @@ class Triangle
     @type
     if @type != (:equilateral||:isosceles||:scalene)
       raise TriangleError
-    rescue TriangleError
   end
+end
 
   class Triangle
   # triangle code
