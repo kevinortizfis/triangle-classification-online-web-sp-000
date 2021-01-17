@@ -12,7 +12,7 @@ class Triangle
       "Equilateral"
     else
       raise TriangleError
-  # end
+   end
 end
 
     class TriangleError < StandardError
