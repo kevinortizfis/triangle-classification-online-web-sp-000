@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :side_1 :side_2 :side_3
+  attr_accessor :side_1,:side_2,m:side_3
   def initialize(sides)
     sides.each {|key, value| self.send(("#{key}="), value)}
   end
