@@ -9,6 +9,12 @@ class Triangle
   end
 
   def valid?
+    if @sides.any?{|one| one <= 0}
+      begin
+      raise TriangleError
+        puts TriangleError.message
+      rescue TriangleError
+      end
 
   def kind
     if @sides.uniq.length == 1
