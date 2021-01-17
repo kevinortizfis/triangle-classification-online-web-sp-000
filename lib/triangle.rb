@@ -13,7 +13,7 @@ class Triangle
       :equilateral
     elsif side_1 != side_2 && side_2 != side_3
       :scalene
-    elsif
+    elsif sides.uniq.length == 2
       :isosceles
     else
       begin
