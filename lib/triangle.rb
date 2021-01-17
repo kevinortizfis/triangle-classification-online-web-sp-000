@@ -15,6 +15,7 @@ class Triangle
       raise TriangleError
     rescue TriangleError
     end
+  end
 
     class TriangleError < StandardError
     end
