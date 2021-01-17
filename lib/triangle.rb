@@ -18,5 +18,6 @@ class Triangle
   end
 
     class TriangleError < StandardError
+      "No."
     end
 end
