@@ -10,7 +10,6 @@ class Triangle
       raise TriangleError
     rescue TriangleError
   end
-  end
 
   class Triangle
   # triangle code
