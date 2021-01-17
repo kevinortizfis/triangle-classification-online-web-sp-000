@@ -9,13 +9,7 @@ class Triangle
   end
 
   def kind
-    if @sides.any?{|one| one <= 0}
-      begin
-      raise TriangleError
-        puts TriangleError.message
-      rescue TriangleError
-      end
-    elsif @sides.uniq.length == 1
+    if @sides.uniq.length == 1
       :equilateral
     elsif @sides.uniq.length == 3
       :scalene
