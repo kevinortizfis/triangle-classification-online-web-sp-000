@@ -1,10 +1,6 @@
 class Triangle
   attr_accessor :side_1,:side_2,:side_3
 
-  def initialize(side_1:,side_2:,side_3:)
-    sides.each {|key, value| self.send(("#{key}="), value)}
-  end
-
   def kind
     # @type
     # if @type != (:equilateral||:isosceles||:scalene)
