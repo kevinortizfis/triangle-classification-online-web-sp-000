@@ -13,6 +13,7 @@ class Triangle
       raise TriangleError
         puts TriangleError.message
       elsif @side_1 + @side_2 != @side_3
+        raise TriangleError
     end
   end
 
