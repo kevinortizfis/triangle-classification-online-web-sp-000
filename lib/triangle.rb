@@ -11,11 +11,7 @@ class Triangle
   end
 end
 
-  class Triangle
-  # triangle code
-
     class TriangleError < StandardError
       # triangle error code
     end
-  end
 end
