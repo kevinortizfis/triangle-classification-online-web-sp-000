@@ -15,7 +15,7 @@ class Triangle
       :scalene
     elsif @sides.uniq.length == 2
       :isosceles
-    else
+    elsif @sides.sum < abs(@sides.sum)
       begin
       raise TriangleError
       rescue TriangleError
