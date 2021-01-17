@@ -9,7 +9,6 @@ class Triangle
     if @type != (:equilateral||:isosceles||:scalene)
       raise TriangleError
     rescue TriangleError
-    end
   end
   end
 
