@@ -12,7 +12,7 @@ class Triangle
     if @sides.any?{|one| one <= 0}
       begin
       raise TriangleError
-        puts error.message
+        puts TriangleError.message
       rescue TriangleError
       end
     elsif @sides.uniq.length == 1
