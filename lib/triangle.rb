@@ -8,7 +8,9 @@ class Triangle
   end
 
   def kind
-    if sidesum % 3 ==
+    if side_1 == side_2 == side_3
+      "Equilateral"
+    else
       raise TriangleError
   # end
 end
