@@ -15,6 +15,7 @@ class Triangle
         puts TriangleError.message
       rescue TriangleError
       end
+    end
 
   def kind
     if @sides.uniq.length == 1
