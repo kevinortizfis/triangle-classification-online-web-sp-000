@@ -9,18 +9,18 @@ class Triangle
   end
 
   def kind
+    if @sides.any?{|one| one <= 0} == true
+      begin
+      raise TriangleError
+      rescue TriangleError
+      end
+    end
     if @sides.uniq.length == 1
       :equilateral
     elsif @sides.uniq.length == 3
       :scalene
     elsif @sides.uniq.length == 2
       :isosceles
-    end
-    if @sides.any?{|one| one <= 0} == true
-      begin
-      raise TriangleError
-      rescue TriangleError
-      end
     end
   end
 
