@@ -6,10 +6,10 @@ class Triangle
   end
 
   def kind
-    @type
-    if @type != (:equilateral||:isosceles||:scalene)
+    # @type
+    # if @type != (:equilateral||:isosceles||:scalene)
       raise TriangleError
-  end
+  # end
 end
 
     class TriangleError < StandardError
