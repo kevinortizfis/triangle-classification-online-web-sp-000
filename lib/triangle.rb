@@ -8,13 +8,13 @@ class Triangle
     sidesum = side_1+side_2+side_3
   end
 
-  def kind
-    # @type
-    # if @type != (:equilateral||:isosceles||:scalene)
-      raise TriangleError
-  # end
-end
-
-    class TriangleError < StandardError
-    end
+#   def kind
+#     # @type
+#     # if @type != (:equilateral||:isosceles||:scalene)
+#       raise TriangleError
+#   # end
+# end
+# 
+#     class TriangleError < StandardError
+#     end
 end
