@@ -15,7 +15,7 @@ class Triangle
       puts error.message
       rescue TriangleError
       end
-    if @sides.uniq.length == 1
+    elsif @sides.uniq.length == 1
       :equilateral
     elsif @sides.uniq.length == 3
       :scalene
