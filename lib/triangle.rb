@@ -13,7 +13,6 @@ class Triangle
     else
       raise TriangleError
     rescue TriangleError
-   end
 
 
     class TriangleError < StandardError
