@@ -11,7 +11,7 @@ class Triangle
   def kind
     if @sides.any?{|one| one <= 0}
       begin
-      raise TriangleError =>
+      raise TriangleError => erroe
       puts error.message
       rescue TriangleError
       end
