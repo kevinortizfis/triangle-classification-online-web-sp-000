@@ -12,6 +12,7 @@ class Triangle
       "Equilateral"
     else
       raise TriangleError
+    rescue TriangleError
    end
 
 
