@@ -15,7 +15,7 @@ class Triangle
       :scalene
     elsif @sides.uniq.length == 2
       :isosceles
-    elsif @sides.any?{|one| one < 0}
+    elsif @sides.any?{|one| one =< 0}
       begin
       raise TriangleError
       rescue TriangleError
