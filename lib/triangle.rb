@@ -9,9 +9,10 @@ class Triangle
   end
 
   def valid?
-    if @sides.any?{|one| one <= 0} || @sides.sum % 3 != 0
+    if @sides.any?{|one| one <= 0}
       raise TriangleError
         puts TriangleError.message
+      elsif @sides.sum % 3 != 0
     end
   end
 
