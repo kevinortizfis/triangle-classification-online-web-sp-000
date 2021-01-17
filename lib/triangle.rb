@@ -3,9 +3,9 @@ class Triangle
   def initialize(type)
     @type = type
   end
-  
+
   def kind
     @type
-    if
+    if @type != (:equilateral||:isosceles||:scalene)
   end
 end
