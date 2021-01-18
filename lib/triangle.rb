@@ -13,7 +13,6 @@ class Triangle
         raise TriangleError
       elsif @sides.sum % 3 != 0
         raise TriangleError
-        puts TriangleError.message
     end
   end
 
