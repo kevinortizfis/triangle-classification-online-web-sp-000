@@ -11,7 +11,7 @@ class Triangle
   def valid?
     if @sides.any?{|one| one <= 0}
         raise TriangleError
-      elsif @side_1 + @side_2 != side_3
+      elsif @side_1 + @side_2 != @side_3
         raise TriangleError
     end
   end
