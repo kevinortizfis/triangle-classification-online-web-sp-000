@@ -10,7 +10,7 @@ class Triangle
 
   def valid?
     if @sides.any?{|one| one <= 0}
-      raise TriangleError
+        raise TriangleError
         puts TriangleError.message
       elsif @sides % 3 != 0
         raise TriangleError
