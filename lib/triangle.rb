@@ -12,7 +12,7 @@ class Triangle
     if @sides.any?{|one| one <= 0}
         raise TriangleError
         puts TriangleError.message
-      elsif @sides % 3 != 0
+      elsif @sides.sum % 3 != 0
         raise TriangleError
         puts TriangleError.message
       end
