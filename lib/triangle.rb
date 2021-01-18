@@ -11,8 +11,8 @@ class Triangle
   def valid?
     if @sides.any?{|one| one <= 0}
         raise TriangleError
-      #elsif @sides.sum % 3 == 0
-      #  raise TriangleError
+      elsif @sides.sum % 3 == 0
+        raise TriangleError
     end
   end
 
